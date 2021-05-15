@@ -1,0 +1,152 @@
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 180px;
+  position: fixed;
+  top: 0;
+  background: var(--Background);
+  border-bottom: 1px solid var(--Shape);
+  z-index: 9999;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 510px;
+}
+
+.pages a {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color: var(--title);
+  border-bottom: 1px solid var(--Yellow);
+  padding: 30px 0;
+}
+
+.header-container button {
+  width: 218px;
+  height: 48px;
+  border-radius: 30px;
+  background: var(--Shape);
+  font-size: 16px;
+  color: var(--title);
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.section1 {
+  max-width: 728px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px 0;
+}
+
+.section1 h1 {
+  font-size: 54px;
+  font-weight: black;
+  font-family: Roboto, sans-serif;
+  color: var(--title);
+}
+
+.span {
+  margin-top: 16px;
+}
+
+.section1 span {
+  font-size: 16px;
+  font-weight: regular;
+  font-family: Roboto, sans-serif;
+  color: var(--Text);
+}
+
+.p1 {
+  font-size: 18px;
+  font-weight: regular;
+  font-family: Roboto, sans-serif;
+  color: var(--Title);
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.p2 {
+  font-size: 18px;
+  font-weight: regular;
+  font-family: Roboto, sans-serif;
+  color: var(--Title);
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.p3 {
+  font-size: 18px;
+  font-weight: regular;
+  font-family: Roboto, sans-serif;
+  color: var(--Title);
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.glossary {
+  max-width: 728px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px 0;
+}
+
+.glossary h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color: var(--title);
+}
+
+.glossary p {
+  font-size: 18px;
+  font-weight: regular;
+  font-family: Roboto, sans-serif;
+  color: var(--Title);
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.glossary li {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: regular;
+  margin-top: 24px;
+  margin-left: 20px;
+  padding-left: 20px;
+  line-height: 30px;
+  list-style: none;
+  position: relative;
+}
+
+.glossary li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 6px;
+  height: 6px;
+  background: var(--Yellow);
+  border-radius: 50%;
+}
